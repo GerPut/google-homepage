@@ -1,0 +1,19 @@
+body {
+background-color:white;
+}
+
+.google-image {
+    display:flex;
+    justify-content: center;
+}
+
+.search-bar{
+    display:flex;
+    justify-content: center;
+}
+
+.buttons {
+    display:flex;
+    justify-content: center;
+    margin: 1px;
+}
