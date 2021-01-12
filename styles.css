@@ -1,5 +1,95 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
-background-color:white;
+    display: flex;
+    flex-direction:column;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+#nav a {
+    margin-right: 20px;
+}
+
+#nav a.topimage {
+width: 30px;
+height: 30px;
+background: red;
+border-radius: 50%;
+}
+
+#nav a.toplink {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #70757A;
+}
+
+.google-image {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.search-bar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.search-bar-content {
+    padding: 10px;
+    width: 450px;
+    outline: 0;
+    border-radius: 20px;
+    border: 1px solid #70757A;
+}
+
+.buttons {
+    display:flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.button-style {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot {
+    width: 100%;
+    background-color: rgb(204, 204, 204);
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
 }
 
 ul {
@@ -26,51 +116,3 @@ ul {
     font-size: 14px;
     color: #70757A;
   }
-
-.google-image {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.search-bar{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 14px;
-}
-
-.search-bar-content {
-    padding: 10px;
-    width: 450px;
-}
-
-.buttons {
-    display:flex;
-    justify-content: center;
-    margin-top: 14px;
-}
-
-.button-style {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-}
-
-.foot {
-  width: auto;
-  background-color: rgb(204, 204, 204);
-  height: 40px;
-  margin-top: 100px;
-}
